@@ -86,39 +86,6 @@ Business Insights
 
 ---
 
-# 📂 Estructura del Proyecto
-
-```bash
-Data-Retail-360/
-│
-├── data/
-│   ├── raw/
-│   ├── processed/
-│   └── external/
-│
-├── notebooks/
-│   ├── 01_EDA.ipynb
-│   ├── 02_ETL.ipynb
-│   ├── 03_Market_Basket.ipynb
-│   └── 04_Forecasting.ipynb
-│
-├── src/
-│   ├── extraction.py
-│   ├── transformation.py
-│   ├── cleaning.py
-│   ├── kpi_analysis.py
-│   ├── forecasting.py
-│   └── basket_analysis.py
-│
-├── dashboard/
-│   └── retail_dashboard.pbix
-│
-├── images/
-│
-├── requirements.txt
-└── README.md
-```
-
 ---
 
 # 🔄 Flujo ETL
@@ -235,75 +202,6 @@ Algunos insights generados:
 
 ---
 
-# 🚀 Instalación
-
-Clonar repositorio:
-
-```bash
-git clone https://github.com/tuusuario/Data-Retail-360.git
-cd Data-Retail-360
-```
-
-Crear entorno virtual:
-
-```bash
-python -m venv venv
-```
-
-Activar entorno:
-
-### Windows
-```bash
-venv\Scripts\activate
-```
-
-### Mac / Linux
-```bash
-source venv/bin/activate
-```
-
-Instalar dependencias:
-
-```bash
-pip install -r requirements.txt
-```
-
----
-
-# ▶️ Ejecución
-
-Ejecutar notebooks:
-
-```bash
-jupyter notebook
-```
-
-O scripts principales:
-
-```bash
-python src/extraction.py
-python src/transformation.py
-python src/forecasting.py
-```
-
----
-
-# 📷 Capturas del Proyecto
-
-Agregar screenshots aquí:
-
-```bash
-images/dashboard.png
-images/forecast.png
-images/market_basket.png
-```
-
-Ejemplo:
-
-```md
-![Dashboard](images/dashboard.png)
-```
-
 ---
 
 # 📌 Roadmap
@@ -316,10 +214,6 @@ Ejemplo:
 - [x] Forecasting
 - [x] Market Basket Analysis
 - [x] Dashboard BI
-- [ ] Deployment Web App
-- [ ] Authentication Layer
-- [ ] Cloud Integration
-- [ ] Real-Time Analytics
 
 ---
 
@@ -337,17 +231,6 @@ Este proyecto puede ser usado en:
 - Executive Reporting
 
 ---
-
-# 👨‍💻 Autor
-
-**Ian Lozano Ruiz**  
-Electronic Engineer | Data Scientist | Analytics | BI | Machine Learning
-
----
-
-# 📜 Licencia
-
-Este proyecto se encuentra bajo licencia MIT.
 
 ---
 
